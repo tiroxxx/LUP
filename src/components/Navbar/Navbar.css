@@ -1,25 +1,37 @@
 .navbar {
-  background-color: green;
+  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 2.25rem;
+  max-height: 100px;
 }
 
 .logo {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo a img {
+  object-fit: cover;
+  width: 100%;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
-  background-color: lightblue;
   width: 20%;
   list-style: none;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: gray;
+  color: hsl(202,76%,44%);
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
 }
 
 .burger {

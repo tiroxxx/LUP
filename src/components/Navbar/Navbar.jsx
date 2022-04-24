@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { act } from 'react-dom/test-utils';
+import Logo from "../../pictures/LUP-logo.png"
 import './Navbar.css';
 
 export default function Navbar() {
@@ -8,7 +8,10 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Logo</div>
+      <div className="logo">
+          <a href=""><img src={Logo} alt="#" /></a>
+          
+          </div>
       <ul className={`nav-links ${active? "active" : ""}`}>
         <li>
           <a href="">Home</a>
