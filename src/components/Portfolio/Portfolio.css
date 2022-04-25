@@ -1,0 +1,22 @@
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-heading h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio-heading p {
+    text-align: center;
+    max-width: 600px;
+    line-height: 25px;
+}
