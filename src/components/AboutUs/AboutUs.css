@@ -1,0 +1,32 @@
+.about-us {
+    margin: 100px 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-us-img {
+    margin-right: 100px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.about-us-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-us-info {
+    border-top: 1px solid hsl(0, 0%, 80%);
+    border-bottom: 1px solid hsl(0,0%,80%);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-us-info p {
+    font-size: 20px;
+    color: hsl(120,0%,57%);
+    line-height: 30px;
+}

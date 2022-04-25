@@ -1,11 +1,12 @@
 import './App.css';
-import { Navbar, Jumbotron } from './components';
+import { Navbar, Jumbotron, AboutUs } from './components';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Jumbotron />
+      <AboutUs />
     </div>
   );
 }
