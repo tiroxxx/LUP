@@ -23,7 +23,7 @@
 }
 
 .portfolio-project-container {
-    margin: 2.5rem;
+  margin-block:50px 100px;
   width: 1000px;
   display: grid;
   gap: 1.5rem;
@@ -31,5 +31,5 @@
 }
 
 .portfolio-project img {
-    width: 100%;
+  width: 100%;
 }

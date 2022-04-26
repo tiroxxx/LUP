@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar, Jumbotron, AboutUs, Portfolio } from './components';
+import { Navbar, Jumbotron, AboutUs, Portfolio, GoogleRank } from './components';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Jumbotron />
       <AboutUs />
       <Portfolio />
+      <GoogleRank />
     </div>
   );
 }

@@ -1,0 +1,89 @@
+.google-rank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.google-rank-heading {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.google-rank-heading p {
+  line-height: 25px;
+}
+
+.google-rank-steps-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  gap: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.google-rank-step {
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.google-rank-step h1 {
+  color: hsl(196, 77%, 48%);
+  background-color: transparent;
+  position: absolute;
+  top: -60px;
+  font-size: 80px;
+}
+
+.google-rank-step h4 {
+  color: hsl(196, 77%, 30%);
+}
+
+.google-rank-step p {
+  color: hsl(120, 0%, 57%);
+  background-color: inherit;
+  text-align: center;
+  line-height: 25px;
+}
+
+.google-rank-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-rank-button button {
+  border: none;
+  padding: 1rem;
+  width: 300px;
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 15px;
+  background-color: hsl(196, 77%, 48%);
+  transition: 0.25s ease-in;
+  border: 1px solid hsl(196, 77%, 48%);
+  border-radius: 10px;
+}
+
+.google-rank-button button:hover {
+  border: 1px solid hsl(196, 77%, 48%);
+  background: none;
+  color: hsl(196, 77%, 48%);
+  transform: scale(1.05);
+  cursor: pointer;
+}
