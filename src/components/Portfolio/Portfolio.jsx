@@ -20,22 +20,22 @@ export default function Portfolio() {
         </p>
       </div>
       <div className="portfolio-project-container">
-        <div className="porfolio-project">
+        <div className="portfolio-project">
           <img src={PortfolioImg1} alt="" />
         </div>
-        <div className="porfolio-project">
+        <div className="portfolio-project">
           <img src={PortfolioImg2} alt="" />
         </div>
-        <div className="porfolio-project">
+        <div className="portfolio-project">
           <img src={PortfolioImg3} alt="" />
         </div>
-        <div className="porfolio-project">
+        <div className="portfolio-project">
           <img src={PortfolioImg4} alt="" />
         </div>
-        <div className="porfolio-project">
+        <div className="portfolio-project">
           <img src={PortfolioImg5} alt="" />
         </div>
-        <div className="porfolio-project">
+        <div className="portfolio-project">
           <img src={PortfolioImg6} alt="" />
         </div>
       </div>
