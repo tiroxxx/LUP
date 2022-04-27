@@ -1,5 +1,13 @@
 import './App.css';
-import { Navbar, Jumbotron, AboutUs, Portfolio, GoogleRank, Contact } from './components';
+import {
+  Navbar,
+  Jumbotron,
+  AboutUs,
+  Portfolio,
+  GoogleRank,
+  Contact,
+  Footer
+} from './components';
 
 function App() {
   return (
@@ -10,6 +18,7 @@ function App() {
       <Portfolio />
       <GoogleRank />
       <Contact />
+      <Footer />
     </div>
   );
 }

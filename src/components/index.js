@@ -4,6 +4,7 @@ import AboutUs from "./AboutUs/AboutUs";
 import Portfolio from "./Portfolio/Portfolio";
 import GoogleRank from "./GoogleRank/GoogleRank";
 import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 export {
     Navbar,
@@ -11,5 +12,6 @@ export {
     AboutUs,
     Portfolio,
     GoogleRank,
-    Contact
+    Contact,
+    Footer
 }
