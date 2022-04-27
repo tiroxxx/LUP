@@ -56,6 +56,8 @@
 
 .google-rank-step h4 {
   color: hsl(196, 77%, 30%);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
 }
 
 .google-rank-step p {
@@ -76,7 +78,8 @@
   padding: 1rem;
   width: 300px;
   color: white;
-  font-weight: bolder;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
   letter-spacing: 2px;
   font-size: 15px;
   background-color: hsl(196, 77%, 48%);
