@@ -17,6 +17,11 @@
   margin-bottom: 70px;
 }
 
+.google-rank-heading h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
 .google-rank-heading p {
   line-height: 25px;
 }
