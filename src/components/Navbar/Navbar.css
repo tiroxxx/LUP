@@ -20,9 +20,10 @@
 }
 
 .nav-links {
+  gap: 20px;
   display: flex;
   justify-content: space-around;
-  width: 20%;
+  width: fit-content;
   list-style: none;
   
 }
@@ -33,7 +34,7 @@
   color: hsl(202,76%,44%);
   text-transform: uppercase;
   font-weight: bolder;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   transition: border-bottom 0.7s ease-in;
 
 }
