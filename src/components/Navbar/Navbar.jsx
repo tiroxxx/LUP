@@ -15,13 +15,13 @@ export default function Navbar() {
       <ul className={`nav-links ${active? "active" : ""}`}>
         
         <li>
-          <a href="">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
-          <a href="">About Us</a>
+          <a href="#about-us">About Us</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="burger" onClick={() => setActive(!active)}>
