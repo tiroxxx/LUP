@@ -4,6 +4,8 @@
   background-color: hsl(196, 77%, 48%);
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 100px;
 }
 
 .footer-container {

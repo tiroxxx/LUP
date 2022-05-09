@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  top: 100px;
 }
 
 .jumbotron-heading {
@@ -39,5 +40,12 @@
 
   .jumbotron-heading h2 {
     font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .jumbotron-heading {
+    top: 15%;
+    left: 10%;
   }
 }
