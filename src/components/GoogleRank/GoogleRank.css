@@ -16,7 +16,7 @@
   align-items: center;
   gap: 1.5rem;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 
 .google-rank-heading h2 {
@@ -124,7 +124,6 @@
 @media screen and (max-width: 768px) {
   .google-rank-heading {
     width: 300px;
-    margin-bottom: 100px;
   }
 
   .google-rank-heading h2 {
