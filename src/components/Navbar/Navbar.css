@@ -54,7 +54,7 @@
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: hsl(180, 100%, 33%);
   margin-bottom: 5px;
 }
 
@@ -73,15 +73,21 @@
 
   .nav-links {
     position: absolute;
-    right: 0;
-    top: 2.25rem;
-    height: 50vh;
-    background-color: aqua;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 50%;
+    background-color: hsl(180, 100%, 33%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: translateX(100%);
+    justify-content: center;
+    transform: translateX(-100%);
     transition: transform 0.5s ease-in;
+  }
+
+  .nav-links a {
+    color: white;
   }
 
   .nav-links li {

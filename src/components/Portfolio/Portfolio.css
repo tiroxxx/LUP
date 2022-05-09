@@ -18,12 +18,14 @@
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   margin-bottom: 20px;
+  color: hsl(180, 100%, 33%);
 }
 
 .portfolio-heading p {
   text-align: center;
   max-width: 600px;
   line-height: 25px;
+  color: hsla(180, 100%, 33%, 0.75);
 }
 
 .portfolio-project-container {

@@ -20,12 +20,12 @@
 
 .jumbotron-heading h1 {
   font-size: 75px;
-  color: hsl(202, 76%, 44%);
+  color: hsl(180, 100%, 33%);
 }
 
 .jumbotron-heading h2 {
   font-size: 50px;
-  color: hsl(202, 76%, 30%);
+  color: hsl(186, 100%, 28%);
 }
 
 @media screen and (max-width: 768px) {

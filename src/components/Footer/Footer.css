@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
   height: 400px;
-  background-color: hsl(196, 77%, 48%);
+  background-color: hsl(180, 100%, 33%);
   display: flex;
   justify-content: center;
   position: relative;
@@ -35,9 +35,14 @@
 .footer-info a {
   margin: 2.5px 0 5px 0;
   text-decoration: none;
-  color: hsl(196, 77%, 30%);
+  color: hsl(186, 100%, 28%);
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
+  transition: 0.25s ease-in;
+}
+
+.footer-info a:hover {
+  color: white;
 }
 
 @media screen and (max-width: 576px) {

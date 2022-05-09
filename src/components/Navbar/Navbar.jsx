@@ -13,6 +13,7 @@ export default function Navbar() {
           
           </div>
       <ul className={`nav-links ${active? "active" : ""}`}>
+        
         <li>
           <a href="">Home</a>
         </li>
