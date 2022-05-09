@@ -20,7 +20,6 @@
   border-bottom: 1px solid hsl(196, 77%, 48%);
   background-color: white;
   border-radius: 3px;
-  width: 50%;
   max-width: 500px;
   display: flex;
   justify-content: center;
@@ -57,11 +56,27 @@
   }
 
   .about-us-info {
-    max-width: 300px;
+    width: 300px;
   }
 
   .about-us-info p {
     font-size: 12.5px;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-us {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .about-us-info {
+    height: 200px;
+  }
+
+  .about-us-img {
+    margin: 40px 0 0 0
   }
 }
