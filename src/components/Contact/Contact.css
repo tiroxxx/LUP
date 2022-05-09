@@ -18,7 +18,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .form-container h2 {
@@ -102,4 +101,38 @@
   color: hsl(196, 77%, 48%);
   transform: scale(1.05);
   cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .form-container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    width: 300px;
+  }
+
+  .form-container form {
+    width: 100%;
+  }
+
+  .form-fields {
+    width: 100%;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #name {
+    margin: 0 0 10px 0;
+    width: 100%;
+  }
+
+  #email {
+    width: 100%;
+  }
 }
