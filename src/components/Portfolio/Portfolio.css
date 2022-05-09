@@ -25,7 +25,7 @@
 }
 
 .portfolio-project-container {
-  margin-block:50px 100px;
+  margin-block: 50px 100px;
   width: 1000px;
   display: grid;
   gap: 1.5rem;
@@ -37,16 +37,30 @@
 }
 
 @media screen and (max-width: 1250px) {
-
   .portfolio-project-container {
     width: 800px;
   }
-
 }
 
 @media screen and (max-width: 992px) {
+  .portfolio-heading {
+    width: 400px;
+  }
+
   .portfolio-project-container {
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-heading {
+    width: 300px;
+  }
+  .portfolio-heading h2 {
+    font-size: 1.25rem;
+  }
+  .portfolio-heading p {
+    font-size: 1rem;
   }
 }
